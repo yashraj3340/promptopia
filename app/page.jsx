@@ -1,3 +1,4 @@
+import Feed from "@components/Feed";
 
 const Home = () => {
   return (
@@ -20,7 +21,8 @@ const Home = () => {
         <br className="max-md:hidden" />
         Promptopia has something for everyone.
      </p>
-
+    
+    <Feed />
     </section>
   )
 }
