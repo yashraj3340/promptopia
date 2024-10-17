@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🌟 Promptopia <br>
+Promptopia is a dynamic full-stack platform designed to inspire creativity by allowing users to share and discover insightful prompts. Built with Next.js, Node.js, Express, and MongoDB, Promptopia simplifies prompt sharing and searching, enabling users to contribute and find content through an intuitive, tag-based system.
 
-## Getting Started
+🚀 Live Demo
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✨ Features <br>
+🌐 Google Authentication: Secure and fast login using Google accounts. <br>
+📢 Share Prompts: Post and manage your own creative or useful prompts. <br>
+🏠 Explore All Prompts: Discover all user-submitted prompts on the homepage. <br>
+🔍 Search Prompts: Search for prompts using tags, keywords, or phrases. <br>
+📱 Fully Responsive: Seamless user experience across mobile, tablet, and desktop devices. <br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠 Tech Stack <br>
+Frontend <br>
+Next.js: A React-based framework with server-side rendering.<br>
+React.js: For building dynamic user interfaces.<br>
+Tailwind CSS (optional): Used for styling and ensuring responsive design.<br>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Backend<br>
+Node.js & Express.js: For API creation and server-side logic.<br>
+MongoDB: A NoSQL database to store user data and prompts.<br>
+Google OAuth: Authentication using Google’s OAuth 2.0 system.<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+🛑 Prerequisites<br>
+Before running the project, make sure you have the following installed:  <br>
 
-## Learn More
+Node.js: Download from here <br>
+MongoDB: Use MongoDB Atlas for cloud-based storage or set up a local MongoDB instance. <br>
+Google OAuth credentials: Create a project in the Google Developer Console. <br>
 
-To learn more about Next.js, take a look at the following resources:
+🚀 Getting Started <br>
+Follow these instructions to set up the project locally. <br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Clone the Repository <br>
+git clone https://github.com/yashraj3340/promptopia.git <br>
+cd promptopia <br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Install Dependencies <br>
+npm install <br>
 
-## Deploy on Vercel
+Set up Environment Variables <br>
+Create a .env.local file at the root of the project and add the following keys: <br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+MONGODB_URI=<Your_MongoDB_Connection_String> <br>
+GOOGLE_CLIENT_ID=<Your_Google_OAuth_Client_ID> <br>
+GOOGLE_CLIENT_SECRET=<Your_Google_OAuth_Client_Secret> <br>
+NEXTAUTH_URL=http://localhost:3000 <br>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Run the Application <br>
+npm run dev <br>
+Navigate to http://localhost:3000 to see the app in action. <br>
+
